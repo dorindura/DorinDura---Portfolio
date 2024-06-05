@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+  background-color: rgb(147 197 253);
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* Home Page */
+
+.paragraph-width-home {
+  width: 480px;
+}
+
+.paragraph-nd-width-home {
+  width: 600px;
+}
+
+.width-and-height-psect {
+  width: 19rem;
+  height: 27rem;
+}
+
+.width-and-height-psect2 {
+  width: 15rem;
+}
+
+.box-shadow-class {
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* About Section */
+
+.width-pghp-about {
+  width: 50%;
+}
+
+.width-height-img-about {
+  width: 35%;
+}
+
+.width-height-skills-cards {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.75rem;
+}
+
+.max-width-skill-cards {
+  max-width: 50rem;
+}
+
+.max-width-skill-cards2 {
+  max-width: 80rem;
+}
+
+.width-height-skills-cards2 {
+  width: 25rem;
+  height: 16rem;
+  border-radius: 0.75rem;
+}
+
+.background-img-jogga {
+  background-image: url("../images/jogga-app.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.background-img-cftbr {
+  background-image: url("../images/cftbr-app.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.background-img-vraja {
+  background-image: url("../images/vraja-muntelui.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.max-width-imgs-portfolio {
+  width: 32rem;
+}
+
+/* Services Section */
+
+.cards-services-section {
+  width: 14rem;
+  height: 18rem;
+}
+
+.width-section-app {
+  max-width: 45%;
+}
+
+#hr-services {
+  border: 2px dashed #121ac3;
+  border-radius: 7px 7px 7px 7px;
+}
+
+#hr-services2 {
+  border: 2px solid black;
+  border-radius: 7px 7px 7px 7px;
+}
+
+/* Resume Section */
+
+.w-40-pntg {
+  width: 40vw;
+}
+
+#hr-resume {
+  border: 2px solid black;
+  border-radius: 7px 7px 7px 7px;
+}
+
+#hr-resume2 {
+  border: 2px solid black;
+  border-radius: 7px 7px 7px 7px;
+  width: 10rem;
+}
+
+.width-right-side {
+}
+
+@media only screen and (max-width: 1150px) {
+  .width-pghp-about {
+    width: 90%;
+  }
+
+  .width-height-img-about {
+    width: 55%;
+  }
+
+  .max-width-imgs-portfolio {
+    width: 70%;
+  }
+
+  .paragraph-width-home {
+    width: 80%;
+  }
+
+  .paragraph-nd-width-home {
+    width: 90%;
+  }
+  /* .width-and-height-psect {
+    width: 16rem;
+    height: 24rem;
+  }
+
+  .width-and-height-psect2 {
+    width: 12rem;
+  } */
+}
+
+@media only screen and (max-width: 1000px) {
+  .width-section-app {
+    max-width: 90%;
+  }
+
+  .width-pghp-about {
+    width: 90%;
+  }
+
+  .width-height-img-about {
+    width: 55%;
+  }
+
+  .width-and-height-psect {
+    width: 16rem;
+    height: 24rem;
+  }
+
+  .width-and-height-psect2 {
+    width: 12rem;
+  }
+
+  .max-xl-screen-page-width {
+    width: 70%;
+  }
+
+  .paragraph-width-home {
+    width: 80%;
+  }
+
+  .paragraph-nd-width-home {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .width-and-height-psect {
+    width: 13rem;
+    height: 19rem;
+  }
+
+  .width-and-height-psect2 {
+    width: 9rem;
+  }
+
+  .paragraph-width-home {
+    width: 80%;
+  }
+
+  .paragraph-nd-width-home {
+    width: 90%;
+  }
+}
