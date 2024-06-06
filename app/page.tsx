@@ -26,10 +26,10 @@ export default function Home() {
         {/* </div> */}
         <div className="py-8 flex flex-row justify-between mx-20 max-xl2-screen:justify-center max-xl2-screen:flex-col max-xl2-screen:mx-2">
           <div className="flex flex-col gap-6 py-6">
-            <div className="text-4xl font-semi-bold paragraph-width-home max-xl2-screen:justify-center max-xl2-screen:flex max-xl2-screen:mx-auto">
+            <div className="text-4xl font-semi-bold paragraph-width-home max-xl2-screen:justify-center max-xl2-screen:flex max-xl2-screen:mx-auto max-sm/3.5-screen:text-2xl">
               Experienced
             </div>
-            <div className="text-5xl text-violet font-bold paragraph-width-home max-xl2-screen:justify-center max-xl2-screen:flex max-xl2-screen:mx-auto max-xl2-screen:text-center">
+            <div className="text-5xl text-violet font-bold paragraph-width-home max-xl2-screen:justify-center max-xl2-screen:flex max-xl2-screen:mx-auto max-xl2-screen:text-center max-sm/3.5-screen:text-3xl">
               Frontend Developer
             </div>
             <div className="paragraph-width-home font-medium text-justify max-xl2-screen:justify-center max-xl2-screen:flex max-xl2-screen:mx-auto max-xl2-screen:text-center">
@@ -62,8 +62,8 @@ export default function Home() {
             </div>
           </div>
           <div className=" max-xl-screen:">
-            <div className="width-and-height-psect bg-dark-blue rounded-full flex justify-center items-center content-end outline max-xl2-screen:mx-auto">
-              <div className="width-and-height-psect2">
+            <div className="width-and-height-psect width-and-height-sm bg-dark-blue rounded-full flex justify-center items-center content-end outline max-xl2-screen:mx-auto">
+              <div className="width-and-height-psect2 width-and-height2-sm">
                 <img
                   className="rounded-full outline"
                   src={PhotoOfMe2.src}

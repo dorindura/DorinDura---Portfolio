@@ -54,10 +54,10 @@ export default function Services() {
               Services
             </div>
           </div>
-          <div className="flex flex-wrap gap-8 justify-center">
+          <div className="flex flex-wrap gap-8 justify-center max-sm/4-screen:width-services-cards-90">
             <div
               onClick={() => handleFirstValue()}
-              className={`cards-services-section cursor-pointer bg-light-blue-sky rounded-lg outline hover:outline-white ${
+              className={`cards-services-section cursor-pointer bg-light-blue-sky rounded-lg outline hover:outline-white max-sm/4-screen:width-services-cards-90 ${
                 firstValue
                   ? "outline-white bg-dark-blue-sky text-white"
                   : "outline bg-light-blue-sky"
@@ -75,7 +75,7 @@ export default function Services() {
                     alt=""
                   />
                 </div>
-                <div className="flex justify-center py-4 font-medium text-lg">
+                <div className="flex justify-center py-4 font-medium text-lg max-sm/4-screen:text-center">
                   App Development
                 </div>
                 <div></div>
@@ -83,7 +83,7 @@ export default function Services() {
             </div>
             <div
               onClick={() => handleSecondValue()}
-              className={`cards-services-section cursor-pointer bg-light-blue-sky rounded-lg outline hover:outline-white ${
+              className={`cards-services-section cursor-pointer bg-light-blue-sky rounded-lg outline hover:outline-white max-sm/4-screen:width-services-cards-90 ${
                 secondValue
                   ? "outline-white bg-dark-blue-sky text-white"
                   : "outline bg-light-blue-sky"
@@ -101,7 +101,7 @@ export default function Services() {
                     alt=""
                   />
                 </div>
-                <div className="flex justify-center py-4 font-medium text-lg">
+                <div className="flex justify-center py-4 font-medium text-lg max-sm/4-screen:text-center">
                   Website Development
                 </div>
                 <div></div>
@@ -109,7 +109,7 @@ export default function Services() {
             </div>
             <div
               onClick={() => handleThirdValue()}
-              className={`cards-services-section cursor-pointer bg-light-blue-sky rounded-lg outline hover:outline-white ${
+              className={`cards-services-section cursor-pointer bg-light-blue-sky rounded-lg outline hover:outline-white max-sm/4-screen:width-services-cards-90 ${
                 thirdValue
                   ? "outline-white bg-dark-blue-sky text-white"
                   : "outline bg-light-blue-sky"
@@ -127,7 +127,7 @@ export default function Services() {
                     alt=""
                   />
                 </div>
-                <div className="flex justify-center py-4 font-medium text-lg">
+                <div className="flex justify-center py-4 font-medium text-lg max-sm/4-screen:text-center">
                   Video Editing
                 </div>
                 <div></div>
