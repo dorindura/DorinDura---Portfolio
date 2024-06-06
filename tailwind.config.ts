@@ -23,6 +23,8 @@ const config: Config = {
         "lg-screen2": "821px",
         "sm-screen": "600px",
         "max-sm/4-screen" : {"max": "290px"},
+        "max-sm/3.5-screen" : {"max": "320px"},
+        "max-sm/3-screen" : {"max": "360px"},
         "max-sm/2-screen" : {"max": "420px"},
         "max-sm-screen" : {"max": "600px"},
         "max-lg-screen" : {"max": "820px"},

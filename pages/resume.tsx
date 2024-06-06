@@ -21,99 +21,113 @@ export default function Resume() {
             Resume
           </div>
           <div className="flex flex-row justify-center py-4 max-lg-screen:flex-col">
-            <div className="flex flex-col w-64 bg-gray-200 py-4 rounded-s-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto">
-              <div className="text-4xl font-bold flex justify-center">
+            <div className="flex flex-col w-64 width-resume-prof-sect2 bg-gray-200 py-4 rounded-s-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto">
+              <div className="text-4xl font-bold flex justify-center max-sm/3-screen:text-center">
                 Dorin Dura
               </div>
-              <div className="text-xl font-semibold flex justify-center py-2">
+              <div className="text-xl font-semibold flex justify-center py-2 max-sm/3-screen:text-center">
                 Frontend Developer
               </div>
-              <div className="flex justify-center py-4 bg-gray-700 w-56 h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
+              <div className="flex justify-center py-4 bg-gray-700 w-56 width-resume-prof-sect h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
                 CONTACT
               </div>
-              <div className="flex flex-col justify-center mx-auto">
-                <div className="flex flex-row gap-4 py-2 max-w-56">
+              <div className="flex flex-col justify-center mx-auto width-resume-prof-sect max-sm/3.5-screen:overflow-hidden">
+                <div className="flex flex-row gap-4 py-2 max-w-56 width-resume-prof-sect max-sm/3.5-screen:text-center max-sm/3.5-screen:justify-center max-sm/3.5-screen:mx-auto">
                   <div className=" w-4 h-4">
                     <FontAwesomeIcon icon={faPhone} size="lg" />
                   </div>
-                  <div className=" text-justify">+40 745 498 572</div>
+                  <div className=" text-justify width-resume-prof-sect">
+                    +40 745 498 572
+                  </div>
                 </div>
-                <div className="flex flex-row gap-4 py-2 max-w-56">
+                <div className="flex flex-row gap-4 py-2 max-w-56 width-resume-prof-sect max-sm/3.5-screen:text-center max-sm/3.5-screen:justify-center max-sm/3.5-screen:mx-auto">
                   <div className=" w-4 h-4">
                     <FontAwesomeIcon icon={faMailBulk} size="lg" />
                   </div>
-                  <div className=" text-justify">duradorin11@yahoo.com</div>
+                  <div className=" text-justify width-resume-prof-sect">
+                    duradorin11@yahoo.com
+                  </div>
                 </div>
                 <a
-                  className="flex flex-row gap-4 py-2 max-w-56"
+                  className="flex flex-row gap-4 py-2 max-w-56 width-resume-prof-sect max-sm/3.5-screen:text-center max-sm/3.5-screen:justify-center max-sm/3.5-screen:mx-auto"
                   href="https://github.com/dorindura"
                 >
                   <div className=" w-4 h-4">
                     <FontAwesomeIcon icon={faLinkedin} size="lg" />
                   </div>
-                  <div className=" text-justify">
+                  <div className=" text-justify width-resume-prof-sect">
                     linkedin.com/in/dorin-dura-frontend-developer/
                   </div>
                 </a>
                 <a
-                  className="flex flex-row gap-4 py-2 max-w-56"
+                  className="flex flex-row gap-4 py-2 max-w-56 width-resume-prof-sect max-sm/3.5-screen:text-center max-sm/3.5-screen:justify-center max-sm/3.5-screen:mx-auto"
                   href="https://github.com/dorindura"
                 >
                   <div className=" w-4 h-4">
                     <FontAwesomeIcon icon={faGithub} size="lg" />
                   </div>
-                  <div className=" text-justify">github.com/dorindura</div>
+                  <div className=" text-justify width-resume-prof-sect">
+                    github.com/dorindura
+                  </div>
                 </a>
-                <div className="flex flex-row gap-4 py-2 max-w-56">
+                <div className="flex flex-row gap-4 py-2 max-w-56 width-resume-prof-sect max-sm/3.5-screen:text-center max-sm/3.5-screen:justify-center max-sm/3.5-screen:mx-auto">
                   <div className=" w-4 h-4">
                     <FontAwesomeIcon icon={faBirthdayCake} size="lg" />
                   </div>
-                  <div className=" text-justify">+40 745 498 572</div>
+                  <div className=" text-justify width-resume-prof-sect">
+                    +40 745 498 572
+                  </div>
                 </div>
               </div>
 
-              <div className="flex justify-center py-4 bg-gray-700 w-56 h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
+              <div className="flex justify-center py-4 bg-gray-700 w-56 width-resume-prof-sect h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
                 EDUCATION
               </div>
 
               <div className="flex flex-col justify-center mx-auto">
                 <div className="flex flex-col gap-4 py-2 max-w-60">
-                  <div className="text-xl font-bold">Highschool</div>
-                  <div className="text-sm font-medium">
+                  <div className="text-xl font-bold max-sm/3-screen:text-center">
+                    Highschool
+                  </div>
+                  <div className="text-sm font-medium max-sm/3-screen:text-center">
                     National College "Avram Iancu"
                   </div>
-                  <div className="text-sm font-medium">
+                  <div className="text-sm font-medium max-sm/3-screen:text-center">
                     September 2019 - June 2023
                   </div>
                 </div>
                 <div className="flex flex-col gap-4 py-2 max-w-60">
-                  <div className="text-xl font-bold">
+                  <div className="text-xl font-bold max-sm/3-screen:text-center">
                     University of Petrosani
                   </div>
-                  <div className="text-sm font-medium">
+                  <div className="text-sm font-medium max-sm/3-screen:text-center">
                     Mechanical and Electrical Engineering
                   </div>
-                  <div className="text-sm font-medium">2023-2027</div>
+                  <div className="text-sm font-medium max-sm/3-screen:text-center">
+                    2023-2027
+                  </div>
                 </div>
                 <div className="flex flex-col gap-4 py-2 max-w-60">
-                  <div className="text-xl font-bold">SkillBrain Trainee</div>
-                  <div className="text-sm font-medium">
+                  <div className="text-xl font-bold max-sm/3-screen:text-center">
+                    SkillBrain Trainee
+                  </div>
+                  <div className="text-sm font-medium max-sm/3-screen:text-center">
                     Frontend Developer Trainee
                   </div>
-                  <div className="text-sm font-medium">
+                  <div className="text-sm font-medium max-sm/3-screen:text-center">
                     June 2023 - November 2023
                   </div>
                 </div>
               </div>
 
-              <div className="flex justify-center py-4 bg-gray-700 w-56 h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
+              <div className="flex justify-center py-4 bg-gray-700 w-56 width-resume-prof-sect h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
                 SKILLS
               </div>
 
               <div className="flex flex-col justify-center mx-auto max-w-60">
-                <div className="flex flex-row">
-                  <div className="w-28 flex justify-start">
-                    <div className="flex flex-col">
+                <div className="flex flex-row max-sm/3.5-screen:flex-col max-sm/3.5-screen:mx-auto">
+                  <div className="w-28 flex justify-start max-sm/3.5-screen:justify-start">
+                    <div className="flex flex-col max-sm/3.5-screen:justify-start">
                       <h3>• HTML</h3>
                       <h3>• CSS</h3>
                       <h3>• JavaScript</h3>
@@ -123,10 +137,13 @@ export default function Resume() {
                     </div>
                   </div>
 
-                  <div id="hr-resume" className="flex justify-center"></div>
+                  <div
+                    id="hr-resume"
+                    className="flex justify-center max-sm/3.5-screen:hidden"
+                  ></div>
 
-                  <div className="w-28 flex justify-end">
-                    <div className="flex flex-col justify-end">
+                  <div className="w-28 flex justify-end max-sm/3.5-screen:justify-start">
+                    <div className="flex flex-col justify-end max-sm/3.5-screen:justify-start">
                       <h3>• Next.Js</h3>
                       <h3>• TypeScript</h3>
                       <h3>• Angular</h3>
@@ -138,15 +155,15 @@ export default function Resume() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col w-96 bg-white rounded-e-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto max-lg-screen:mt-4">
+            <div className="flex flex-col w-96 width-resume-prof-sect bg-white rounded-e-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto max-lg-screen:mt-4">
               <div className="px-4">
-                <div className="mt-5 flex flex-row justify-between">
-                  <div className="text-xl font-medium flex justify-start width-pghp-about">
+                <div className="mt-5 flex flex-row justify-between max-sm/2-screen:justify-center max-sm/3-screen:mx-auto max-sm/3-screen:text-center">
+                  <div className="text-xl font-medium flex justify-start width-pghp-about max-sm/3-screen:justify-center max-sm/3-screen:mx-auto">
                     PROFILE
                   </div>
                   <div
                     id="hr-resume2"
-                    className="h-1 flex m-auto float-end width-pghp-about"
+                    className="h-1 flex m-auto float-end width-pghp-about max-sm/3-screen:hidden"
                   />
                 </div>
                 <div className="pt-2">
@@ -164,23 +181,25 @@ export default function Resume() {
                   </p>
                 </div>
 
-                <div className="mt-4 flex flex-row justify-between">
-                  <div className="text-xl font-medium flex justify-start width-pghp-about">
+                <div className="mt-4 flex flex-row justify-between max-sm/2-screen:justify-center max-sm/3-screen:mx-auto max-sm/3-screen:text-center">
+                  <div className="text-xl font-medium flex justify-start width-pghp-about max-sm/3-screen:justify-center max-sm/3-screen:mx-auto">
                     EXPERIENCE
                   </div>
                   <div
                     id="hr-resume2"
-                    className="h-1 flex m-auto float-end width-pghp-about"
+                    className="h-1 flex m-auto float-end width-pghp-about max-sm/3-screen:hidden"
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <div className="font-bold text-lg py-1">
+                  <div className="font-bold text-lg py-1 max-sm/3.5-screen:text-center">
                     Frontend Developer Freelancer
                   </div>
-                  <div className="flex justify-end font-medium py-1">
+                  <div className="flex justify-end font-medium py-1 max-sm/3.5-screen:text-center max-sm/3.5-screen:justify-center">
                     February 2024 - Present
                   </div>
-                  <div className="font-medium py-1">Remote</div>
+                  <div className="font-medium py-1 max-sm/3.5-screen:text-center">
+                    Remote
+                  </div>
                 </div>
                 <div className="text-justify text-xs">
                   <p>
@@ -223,13 +242,15 @@ export default function Resume() {
                 </div>
 
                 <div className="flex flex-col py-2">
-                  <div className="font-medium py-1">
+                  <div className="font-bold text-lg py-1 max-sm/3.5-screen:text-center">
                     Frontend Developer Intern
                   </div>
-                  <div className="flex justify-end font-medium py-1">
+                  <div className="flex justify-end font-medium py-1 max-sm/3.5-screen:justify-center max-sm/3.5-screen:text-center">
                     November 2023 - February 2024
                   </div>
-                  <div className="font-medium py-1">Jogga | Remote</div>
+                  <div className="font-medium py-1 max-sm/3.5-screen:text-center">
+                    Jogga | Remote
+                  </div>
                 </div>
                 <div className="text-justify text-xs max-lg-screen:pb-2">
                   <p>
@@ -266,12 +287,12 @@ export default function Resume() {
           </div>
 
           <div className="flex flex-row justify-center py-4 max-lg-screen:flex-col">
-            <div className="flex flex-col w-64 bg-gray-200 py-4 rounded-s-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto">
-              <div className="flex justify-center py-4 bg-gray-700 w-56 h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
+            <div className="flex flex-col w-64 width-resume-prof-sect2 bg-gray-200 py-4 rounded-s-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto">
+              <div className="flex justify-center py-4 bg-gray-700 w-56 width-resume-prof-sect h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
                 SOFT SKILLS
               </div>
 
-              <div className="text-justify text-xs w-48 justify-center flex mx-auto flex-col">
+              <div className="text-justify text-xs w-48 width-resume-prof-sect justify-center flex mx-auto flex-col">
                 <p className="">
                   •Strong organizational and time management skills.
                 </p>
@@ -292,76 +313,78 @@ export default function Resume() {
                 </p>
               </div>
 
-              <div className="flex justify-center py-4 bg-gray-700 w-56 h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
+              <div className="flex justify-center py-4 bg-gray-700 w-56 width-resume-prof-sect h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
                 LANGUAGES
               </div>
 
               <div className="flex flex-col justify-center mx-auto">
-                <div className="flex flex-col gap-4 py-2 max-w-60">
-                  <div className="text-xl font-bold justify-center flex">
+                <div className="flex flex-col gap-4 py-2 max-w-60 width-resume-prof-sect max-sm/2-screen:justify-center max-sm/2-screen:mx-auto">
+                  <div className="text-xl font-bold justify-center flex max-sm/2-screen:text-center max-sm/2-screen:mx-auto">
                     English - Advanced
                   </div>
                 </div>
-                <div className="flex flex-col gap-4 py-2 max-w-60">
-                  <div className="text-xl font-bold justify-center flex">
+                <div className="flex flex-col gap-4 py-2 max-w-60 width-resume-prof-sect max-sm/2-screen:justify-center max-sm/2-screen:mx-auto">
+                  <div className="text-xl font-bold justify-center flex max-sm/2-screen:text-center max-sm/2-screen:mx-auto">
                     Romanian - Native
                   </div>
                 </div>
-                <div className="flex flex-col gap-4 py-2 max-w-60">
-                  <div className="text-xl font-bold justify-center flex">
+                <div className="flex flex-col gap-4 py-2 max-w-60 width-resume-prof-sect max-sm/2-screen:justify-center max-sm/2-screen:mx-auto">
+                  <div className="text-xl font-bold justify-center flex max-sm/2-screen:text-center max-sm/2-screen:mx-auto">
                     French - Elementary
                   </div>
                 </div>
               </div>
 
-              <div className="flex justify-center py-4 bg-gray-700 w-56 h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
+              <div className="flex justify-center py-4 bg-gray-700 w-56 width-resume-prof-sect h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
                 COURSES
               </div>
 
-              <div>
-                <p className="text-sm font-medium justify-center flex py-1">
+              <div className="width-resume-prof-sect max-xl2-screen:flex max-xl2-screen:justify-center max-xl2-screen:mx-auto max-xl2-screen:flex-col">
+                <p className="text-sm font-medium justify-center flex py-1 max-sm-screen:text-center">
                   Frontend Developer - SkillBrain.com
                 </p>
-                <p className="text-sm font-medium justify-center flex py-1">
+                <p className="text-sm font-medium justify-center flex py-1 max-sm-screen:text-center">
                   JavaScript Course - Codefinity.com
                 </p>
-                <p className="text-sm font-medium justify-center flex py-1">
+                <p className="text-sm font-medium justify-center flex py-1 max-sm-screen:text-center">
                   React Course - Codefinity.com
                 </p>
-                <p className="text-sm font-medium justify-center flex py-1">
+                <p className="text-sm font-medium justify-center flex py-1 max-sm-screen:text-center">
                   Web Dev Course - Mimo.com
                 </p>
               </div>
 
-              <div className="flex justify-center py-4 bg-gray-700 w-56 h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
+              <div className="flex justify-center py-4 bg-gray-700 w-56 width-resume-prof-sect h-10 rounded-xl items-center text-white font-semibold mx-auto my-4">
                 HOBBIES
               </div>
               <div className="flex justify-center flex-col mx-auto">
-                <p className="text-sm font-medium flex justify-center py-1 mx-auto text-center w-52">
+                <p className="text-sm font-medium flex justify-center py-1 mx-auto text-center w-52 width-resume-prof-sect">
                   Semi-Pro Athlete - 5 x Mini Football U17 Champion
                 </p>
-                <p className="text-sm font-medium justify-center flex py-1 mx-auto text-center w-52">
+                <p className="text-sm font-medium justify-center flex py-1 mx-auto text-center w-52 width-resume-prof-sect">
                   Three-Time Fastest Marathon Runner
                 </p>
-                <p className="text-sm font-medium justify-center flex py-1 mx-auto text-center w-48">
+                <p className="text-sm font-medium justify-center flex py-1 mx-auto text-center w-48 width-resume-prof-sect">
                   Amateur Ping Pong and Bowling Player
                 </p>
-                <p className="text-sm font-medium justify-center flex py-1 mx-auto text-center w-52">
+                <p className="text-sm font-medium justify-center flex py-1 mx-auto text-center w-52 width-resume-prof-sect">
                   Chess Enthusiast
                 </p>
               </div>
             </div>
 
-            <div className="flex flex-col w-96 bg-white rounded-e-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto max-lg-screen:mt-4">
+            <div className="flex flex-col w-96 width-resume-prof-sect bg-white rounded-e-lg max-lg-screen:rounded-xl max-lg-screen:justify-center max-lg-screen:mx-auto max-lg-screen:mt-4">
               <div className="px-4">
                 <div className="flex flex-col py-2">
-                  <div className="font-bold text-lg py-1">
+                  <div className="font-bold text-lg py-1 max-sm/3.5-screen:text-center">
                     Frontend Developer Junior
                   </div>
-                  <div className="flex justify-end font-medium py-1">
+                  <div className="flex justify-end font-medium py-1 max-sm/3.5-screen:justify-center max-sm/3.5-screen:text-center">
                     June 2024 - November 2023
                   </div>
-                  <div className="font-medium py-1">SkillBrain | Remote</div>
+                  <div className="font-medium py-1 max-sm/3.5-screen:text-center">
+                    SkillBrain | Remote
+                  </div>
                 </div>
                 <div className="text-justify text-xs">
                   <p>
@@ -398,17 +421,19 @@ export default function Resume() {
                   </p>
                 </div>
 
-                <div className="mt-5 flex flex-row justify-between">
-                  <div className="text-xl font-medium flex justify-start width-pghp-about">
+                <div className="mt-5 flex flex-row justify-between max-sm/2-screen:justify-center max-sm/3-screen:mx-auto max-sm/3-screen:text-center">
+                  <div className="text-xl font-medium flex justify-start width-pghp-about max-sm/3-screen:justify-center max-sm/3-screen:mx-auto">
                     Technical Projects
                   </div>
                   <div
                     id="hr-resume2"
-                    className="h-1 flex m-auto float-end width-pghp-about"
+                    className="h-1 flex m-auto float-end width-pghp-about max-sm/3-screen:hidden"
                   />
                 </div>
 
-                <div className="font-medium text-sm py-2">Jogga App</div>
+                <div className="font-medium text-sm py-2 max-sm/3.5-screen:text-center">
+                  Jogga App
+                </div>
                 <div className="text-justify text-xs">
                   <p className="text-justify">
                     •Contributed to recreating the Jogga App with Next.js. 🔄
@@ -445,7 +470,9 @@ export default function Resume() {
                   </p>
                 </div>
 
-                <div className="font-medium text-sm py-2">Car Rental App</div>
+                <div className="font-medium text-sm py-2 max-sm/3.5-screen:text-center">
+                  Car Rental App
+                </div>
                 <div className="text-justify text-xs max-lg-screen:pb-2">
                   <p>
                     •Leveraged Next.js for improved SEO performance through
